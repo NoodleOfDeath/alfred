@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find create_bringup)/launch/create_2.launch"/>
+  <node name="alfred" pkg="alfred" type="alfred" respawn="true" output="screen" />
+</launch>
