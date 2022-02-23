@@ -15,7 +15,7 @@ Just a fun project that allows you to control an iRobot Create 2 from React.js, 
 
 ### Setup
 
-#### Configure and Install ROS on each Machine
+#### Install ROS on each Machine
 
 * [Install Ubuntu Server 20.04 on your Raspberry Pi 4](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview)
   * __Make sure you install Ubuntu Server, and not Raspbian or Ubuntu Desktop__
@@ -24,8 +24,42 @@ Just a fun project that allows you to control an iRobot Create 2 from React.js, 
   * __Be sure to use the same version/distribution of ROS on ALL machines that will be part of the ROS network__
 * [Install Ubuntu 20.04 on The Batcomputer](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
   * If you decide to use a virtual machine, like I did, make sure to connect an actual ethernet cable to your host machine, and change the network adapter for VM to be a "bridged network"
-* [Install ROS on The Batcomputer]
+* [Install ROS on The Batcomputer](http://wiki.ros.org/Installation/Ubuntu)
+
+#### Configure Environments
+
+* Find the local IP address of Alfred and The Batcomputer with `ifconfig`. It should look something like `192.168.x.1`.
+* Edit the hostname mappings on Alfred with `sudo nano /etc/hosts` and make sure you have the following lines:
+```bash
+127.0.0.1    localhost
+127.0.1.1    alfred
+192.168.x.2  batcomputer
+```
+* On Alfred add the following lines to the end of `~/.bashrc`:
+```bash
+export ROS_HOSTNAME=alfred
+export ROS_MASTER_URI=http://batcomputer:11311
+```
+* * Edit the hostname mappings on The Batcomputer with `sudo nano /etc/hosts` and make sure you have the following lines:
+```bash
+127.0.0.1    localhost
+127.0.1.1    batcomputer
+192.168.x.1  alfred
+```
+* On The Batcomputer add the following lines to the end of `~/.bashrc`:
+```bash
+export ROS_HOSTNAME=batcomputer
+export ROS_MASTER_URI=http://batcomputer:11311
+```
+
+To verify if your ROS environments are configured correctly:
+
+* Launch ROS Core on The Batcomputer by just running the command `roscore`
+* On Alfred run the command `rostopic echo /batstuff`
+* Finally, in a second terminal window on The Batcomputer run the command `rostopic pub -r 10 /batstuff std_msgs/String "I'll be home late, Alfed"`
   
+If you have configured your ROS environments correctly, the terminal on Alfred should start receiving messages from The Batcomputer at a rate of 10Hz.
+
 ### Building the Code
 
 #### Build ROS Packages on Alfred
@@ -33,17 +67,41 @@ Just a fun project that allows you to control an iRobot Create 2 from React.js, 
 To build the ROS packages used by Alfred, you will need to move the `src` directory into your ROS workspace, which is typically `~/ros_catkin_ws`. Create the workspace directory if you need to: `mkdir -p ~/ros_catkin_ws/src`.
 
 ```bash
-$ source /opt/ros/noetic/setup.bash
-$ mkdir ~/opt
-$ cd ~/opt
-$ git clone https://github.com/NoodleOfDeath/alfred
-$ cp -rf alfred/src/alfred ~/ros_catkin_ws/src
+ubuntu@alfred$ source /opt/ros/noetic/setup.bash
+ubuntu@alfred$ mkdir ~/opt
+ubuntu@alfred$ cd ~/opt
+ubuntu@alfred$ git clone https://github.com/NoodleOfDeath/alfred
+ubuntu@alfred$ cp -rf alfred/src/alfred ~/ros_catkin_ws/src
 ```
 
 Next, you'll need to download the ROS package projects for the iRobot Create 2
 
 ```bash
-$ cd ~/ros_catkin_ws/src
-$ git clone https://github.com
-$
+ubuntu@alfred$ cd ~/ros_catkin_ws/src
+ubuntu@alfred$ git clone https://github.com/AutonomyLab/libcreate.git
+ubuntu@alfred$ git clone https://github.com/autonomylab/create_robot.git
+ubuntu@alfred$ ls
+alfred create_robot libcreate
 ```
+
+Next use catkin tools to build all of the ROS packages on Alfred:
+
+```bash
+ubuntu@alfred$ cd ~/ros_catkin_ws
+ubuntu@alfred$ catkin build
+ubuntu@alfred$ source devel/setup.bash
+```
+
+#### Build Custom ROS .msg Package on The Batcomputer
+
+### Running the Application Suite
+
+#### Spin Up the FastAPI Instance on The Batcomputer
+
+#### Run the React.js Web Application on the Batcomputer
+
+#### Control the Robot
+
+#### Control Robot using the iOS Application
+
+### Conclusion
