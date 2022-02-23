@@ -169,6 +169,7 @@ INFO:   topicmanager initialized
 
 ```bash
 ubuntu@batcomputer$ cd ~/opt/alfred/ui/react
+ubuntu@batcomputer$ npm i --save
 ubuntu@batcomputer$ npm start
 Compiled successfully!
 
