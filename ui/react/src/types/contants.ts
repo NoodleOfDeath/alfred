@@ -10,7 +10,7 @@ export enum EFormFieldType {
   button,
 }
 
-export const APIEndpointPoint = "http://192.168.68.158:8000";
+export const APIEndpointPoint = "http://batcomputer:8000";
 
 /**
  *
