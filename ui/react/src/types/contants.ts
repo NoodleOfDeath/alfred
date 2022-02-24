@@ -10,7 +10,7 @@ export enum EFormFieldType {
   button,
 }
 
-export const APIEndpointPoint = "http://batcomputer:8000";
+export const APIEndpoint = "http://batcomputer:8000";
 
 /**
  *
@@ -61,7 +61,7 @@ export const instruments = {
           const sendRequest = () => {
             if (!store.mousedown) return;
             console.log(`sending drive request: speed = ${store.driveSpeed}`);
-            fetch(`${APIEndpointPoint}/drive/`, {
+            fetch(`${APIEndpoint}/drive/`, {
               method: "POST",
               mode: "cors",
               headers: {
@@ -111,7 +111,7 @@ export const instruments = {
           const sendRequest = () => {
             if (!store.mousedown) return;
             console.log(`sending turn request: speed = ${store.turnSpeed}`);
-            fetch(`${APIEndpointPoint}/rotate/`, {
+            fetch(`${APIEndpoint}/rotate/`, {
               method: "POST",
               mode: "cors",
               headers: {
