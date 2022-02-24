@@ -165,7 +165,18 @@ INFO:   Started reloader process [11995]
 INFO:   topicmanager initialized
 ```
 
-* Run the React.js Web Application on The Batcomputer
+* Update node on The Batcomputer to 14+ or the React.js application will not work.
+
+```bash
+ubuntu@batcomputer$ sudo apt update
+ubuntu@batcomputer$ curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+ubuntu@batcomputer$ cat /etc/apt/sources.list.d/nodesource.list
+deb https://deb.nodesource.com/node_14.x focal main
+deb-src https://deb.nodesource.com/node_14.x focal main
+ubuntu@batcomputer$ sudo apt -y install nodejs
+```
+
+* Run the React.js web application on The Batcomputer
 
 ```bash
 ubuntu@batcomputer$ cd ~/opt/alfred/ui/react
