@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let APIEndpoint = "http://batcomputer:8000"
+let APIEndpoint = "http://192.168.68.158:8000"
 
 @main
 struct AlfredMobileApp: App {

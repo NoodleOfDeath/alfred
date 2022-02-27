@@ -1,18 +1,17 @@
 // @flow
-import React from "react";
 import Container from "@mui/material/Container";
 import Header from "./components/Header";
 import Dashboard from "./pages/Dashboard";
 import { ThemeProvider } from "@mui/material/styles";
 
-import { DarkTheme, instruments } from "./types/contants";
+import { DarkTheme, sections } from "./types/constants";
 
 function App() {
   return (
     <ThemeProvider theme={DarkTheme}>
-      <Container className="App">
+      <Container maxWidth="xl" disableGutters={true}>
         <Header title="The Batcomputer" />
-        <Dashboard instruments={instruments} />
+        <Dashboard sections={sections} />
       </Container>
     </ThemeProvider>
   );

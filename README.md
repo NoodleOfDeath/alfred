@@ -43,9 +43,11 @@ The primary purpose of this project is to demonstrate a simple and foundational 
 
 ```bash
 source /opt/ros/noetic/setup.bash
-export ROS_HOSTNAME=alfred
+export ROS_HOSTNAME=192.168.x.2
 export ROS_MASTER_URI=http://batcomputer:11311
 ```
+
+NOTE that `ROS_HOSTNAME` is set to the actual local IP address of Alfred, because otherwise, sensor topics won't be connected properly.
 
 * Edit the hostname mappings on The Batcomputer with `sudo nano /etc/hosts` and make sure you have the following lines:
 
@@ -155,9 +157,18 @@ ubuntu@batcomputer$ catkin build
 The Batcomputer will be running ROS core, a FastAPI server, and a React.js web application.
 
 * Make sure ROS core is running on The Batcomputer by running `roscore` in the terminal.
-* In another terminal tab, start the FastAPI instance on The Batcomputer either as a docker container or directly with `uvicorn`
+* In a second tab, run the subscriber node on The Batcomputer by running
 
 ```bash
+ubuntu@batcomputer$ source cd ~/ros_catkin_ws/devel/setup.bash
+ubuntu@batcomputer$ cd ~/opt/alfred/api/batcomputer
+ubuntu@batcomputer$ ./sub.py
+```
+
+* Finally, in a third terminal tab, start the FastAPI instance on The Batcomputer either as a docker container or directly with `uvicorn`
+
+```bash
+ubuntu@batcomputer$ source cd ~/ros_catkin_ws/devel/setup.bash
 ubuntu@batcomputer$ cd ~/opt/alfred/api/batcomputer
 ubuntu@batcomputer$ uvicorn api:app --reload --host "0.0.0.0"
 INFO:   Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
@@ -198,3 +209,4 @@ To create a production build, use npm run build.
 You should be able to drive and rotate the robot with this web application.
 
 To control the robot with an iOS application, open the Xcode project on a Mac and simply run it in the simulator or on a device on the same local network.
+

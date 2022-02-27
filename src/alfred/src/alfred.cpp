@@ -1,5 +1,5 @@
 #include "ros/ros.h"
-#include "alfred/Float32List.h"
+#include "alfred/CreateCommand.h"
 #include <geometry_msgs/Twist.h>
 #include <sstream>
 
@@ -10,18 +10,18 @@
 
 CreateDriverROSWrapper create_driver;
 
-void commandCallback(const alfred::Float32List::ConstPtr &msg)
+void commandCallback(const alfred::CreateCommand::ConstPtr &msg)
 {
-    int command = (int)msg->data[0];
-    float speed = msg->data[1];
-    ROS_INFO("Message Recieved: [%d, %.2f]", command, speed);
+    int command = msg->command;
+    float velocity = msg->velocity;
+    // ROS_INFO("Message Recieved: [%d, %.2f]", command, velocity);
     switch (command)
     {
-    case 1:
-        create_driver.drive((double)speed);
+    case alfred::CreateCommand::CMD_DRIVE:
+        create_driver.drive((double)velocity);
         break;
-    case 2:
-        create_driver.rotate((double)speed);
+    case alfred::CreateCommand::CMD_ROTATE:
+        create_driver.rotate((double)velocity);
         break;
     }
 }

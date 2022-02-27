@@ -1,0 +1,1277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018DE9A727C6933500A1BD01 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9A627C6933500A1BD01 /* Tests_iOS.swift */; };
+		018DE9A927C6933500A1BD01 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9A827C6933500A1BD01 /* Tests_iOSLaunchTests.swift */; };
+		018DE9B327C6933500A1BD01 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9B227C6933500A1BD01 /* Tests_macOS.swift */; };
+		018DE9B527C6933500A1BD01 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9B427C6933500A1BD01 /* Tests_macOSLaunchTests.swift */; };
+		018DE9B627C6933500A1BD01 /* AlfredMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE98E27C6933400A1BD01 /* AlfredMobileApp.swift */; };
+		018DE9B727C6933500A1BD01 /* AlfredMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE98E27C6933400A1BD01 /* AlfredMobileApp.swift */; };
+		018DE9B827C6933500A1BD01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE98F27C6933400A1BD01 /* ContentView.swift */; };
+		018DE9B927C6933500A1BD01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE98F27C6933400A1BD01 /* ContentView.swift */; };
+		018DE9BA27C6933500A1BD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018DE99027C6933500A1BD01 /* Assets.xcassets */; };
+		018DE9BB27C6933500A1BD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018DE99027C6933500A1BD01 /* Assets.xcassets */; };
+		018DE9CF27C8046200A1BD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018DE9CE27C8046200A1BD01 /* Assets.xcassets */; };
+		018DE9D527C8046200A1BD01 /* AlfredWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 018DE9D427C8046200A1BD01 /* AlfredWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		018DE9DA27C8046200A1BD01 /* AlfredMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9D927C8046200A1BD01 /* AlfredMobileApp.swift */; };
+		018DE9DC27C8046200A1BD01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9DB27C8046200A1BD01 /* ContentView.swift */; };
+		018DE9DE27C8046200A1BD01 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9DD27C8046200A1BD01 /* NotificationController.swift */; };
+		018DE9E027C8046200A1BD01 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9DF27C8046200A1BD01 /* NotificationView.swift */; };
+		018DE9E227C8046200A1BD01 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9E127C8046200A1BD01 /* ComplicationController.swift */; };
+		018DE9E427C8046400A1BD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018DE9E327C8046400A1BD01 /* Assets.xcassets */; };
+		018DE9E727C8046400A1BD01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018DE9E627C8046400A1BD01 /* Preview Assets.xcassets */; };
+		018DE9F327C8046400A1BD01 /* AlfredWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9F227C8046400A1BD01 /* AlfredWatchTests.swift */; };
+		018DE9FD27C8046400A1BD01 /* AlfredWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9FC27C8046400A1BD01 /* AlfredWatchUITests.swift */; };
+		018DE9FF27C8046400A1BD01 /* AlfredWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DE9FE27C8046400A1BD01 /* AlfredWatchUITestsLaunchTests.swift */; };
+		018DEA0227C8046400A1BD01 /* AlfredWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 018DE9CC27C8046000A1BD01 /* AlfredWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018DE9A327C6933500A1BD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018DE98927C6933400A1BD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018DE99427C6933500A1BD01;
+			remoteInfo = "AlfredMobile (iOS)";
+		};
+		018DE9AF27C6933500A1BD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018DE98927C6933400A1BD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018DE99A27C6933500A1BD01;
+			remoteInfo = "AlfredMobile (macOS)";
+		};
+		018DE9D627C8046200A1BD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018DE98927C6933400A1BD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018DE9D327C8046200A1BD01;
+			remoteInfo = "AlfredWatch WatchKit Extension";
+		};
+		018DE9EF27C8046400A1BD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018DE98927C6933400A1BD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018DE9D327C8046200A1BD01;
+			remoteInfo = "AlfredWatch WatchKit Extension";
+		};
+		018DE9F927C8046400A1BD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018DE98927C6933400A1BD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018DE9CB27C8046000A1BD01;
+			remoteInfo = AlfredWatch;
+		};
+		018DEA0027C8046400A1BD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018DE98927C6933400A1BD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018DE9CB27C8046000A1BD01;
+			remoteInfo = AlfredWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		018DEA0327C8046400A1BD01 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				018DEA0227C8046400A1BD01 /* AlfredWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DEA0627C8046400A1BD01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				018DE9D527C8046200A1BD01 /* AlfredWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		018DE98E27C6933400A1BD01 /* AlfredMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfredMobileApp.swift; sourceTree = "<group>"; };
+		018DE98F27C6933400A1BD01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		018DE99027C6933500A1BD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		018DE99527C6933500A1BD01 /* Alfred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE99B27C6933500A1BD01 /* Alfred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE99D27C6933500A1BD01 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		018DE9A227C6933500A1BD01 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE9A627C6933500A1BD01 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		018DE9A827C6933500A1BD01 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		018DE9AE27C6933500A1BD01 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE9B227C6933500A1BD01 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		018DE9B427C6933500A1BD01 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		018DE9CC27C8046000A1BD01 /* AlfredWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlfredWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE9CE27C8046200A1BD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		018DE9D427C8046200A1BD01 /* AlfredWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AlfredWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE9D927C8046200A1BD01 /* AlfredMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfredMobileApp.swift; sourceTree = "<group>"; };
+		018DE9DB27C8046200A1BD01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		018DE9DD27C8046200A1BD01 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		018DE9DF27C8046200A1BD01 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		018DE9E127C8046200A1BD01 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		018DE9E327C8046400A1BD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		018DE9E627C8046400A1BD01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		018DE9E827C8046400A1BD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018DE9E927C8046400A1BD01 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		018DE9EE27C8046400A1BD01 /* AlfredWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlfredWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE9F227C8046400A1BD01 /* AlfredWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfredWatchTests.swift; sourceTree = "<group>"; };
+		018DE9F827C8046400A1BD01 /* AlfredWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlfredWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DE9FC27C8046400A1BD01 /* AlfredWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfredWatchUITests.swift; sourceTree = "<group>"; };
+		018DE9FE27C8046400A1BD01 /* AlfredWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfredWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		018DEA1127C8099000A1BD01 /* Alfred--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alfred--iOS--Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018DE99227C6933500A1BD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE99827C6933500A1BD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE99F27C6933500A1BD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9AB27C6933500A1BD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9D127C8046200A1BD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9EB27C8046400A1BD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9F527C8046400A1BD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018DE98827C6933400A1BD01 = {
+			isa = PBXGroup;
+			children = (
+				018DEA1127C8099000A1BD01 /* Alfred--iOS--Info.plist */,
+				018DE98D27C6933400A1BD01 /* Shared */,
+				018DE99C27C6933500A1BD01 /* macOS */,
+				018DE9A527C6933500A1BD01 /* Tests iOS */,
+				018DE9B127C6933500A1BD01 /* Tests macOS */,
+				018DE9CD27C8046000A1BD01 /* AlfredWatch */,
+				018DE9D827C8046200A1BD01 /* AlfredWatch WatchKit Extension */,
+				018DE9F127C8046400A1BD01 /* AlfredWatchTests */,
+				018DE9FB27C8046400A1BD01 /* AlfredWatchUITests */,
+				018DE99627C6933500A1BD01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		018DE98D27C6933400A1BD01 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				018DE98E27C6933400A1BD01 /* AlfredMobileApp.swift */,
+				018DE98F27C6933400A1BD01 /* ContentView.swift */,
+				018DE99027C6933500A1BD01 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		018DE99627C6933500A1BD01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				018DE99527C6933500A1BD01 /* Alfred.app */,
+				018DE99B27C6933500A1BD01 /* Alfred.app */,
+				018DE9A227C6933500A1BD01 /* Tests iOS.xctest */,
+				018DE9AE27C6933500A1BD01 /* Tests macOS.xctest */,
+				018DE9CC27C8046000A1BD01 /* AlfredWatch.app */,
+				018DE9D427C8046200A1BD01 /* AlfredWatch WatchKit Extension.appex */,
+				018DE9EE27C8046400A1BD01 /* AlfredWatchTests.xctest */,
+				018DE9F827C8046400A1BD01 /* AlfredWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		018DE99C27C6933500A1BD01 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				018DE99D27C6933500A1BD01 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		018DE9A527C6933500A1BD01 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				018DE9A627C6933500A1BD01 /* Tests_iOS.swift */,
+				018DE9A827C6933500A1BD01 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		018DE9B127C6933500A1BD01 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				018DE9B227C6933500A1BD01 /* Tests_macOS.swift */,
+				018DE9B427C6933500A1BD01 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		018DE9CD27C8046000A1BD01 /* AlfredWatch */ = {
+			isa = PBXGroup;
+			children = (
+				018DE9CE27C8046200A1BD01 /* Assets.xcassets */,
+			);
+			path = AlfredWatch;
+			sourceTree = "<group>";
+		};
+		018DE9D827C8046200A1BD01 /* AlfredWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				018DE9D927C8046200A1BD01 /* AlfredMobileApp.swift */,
+				018DE9DB27C8046200A1BD01 /* ContentView.swift */,
+				018DE9DD27C8046200A1BD01 /* NotificationController.swift */,
+				018DE9DF27C8046200A1BD01 /* NotificationView.swift */,
+				018DE9E127C8046200A1BD01 /* ComplicationController.swift */,
+				018DE9E327C8046400A1BD01 /* Assets.xcassets */,
+				018DE9E827C8046400A1BD01 /* Info.plist */,
+				018DE9E927C8046400A1BD01 /* PushNotificationPayload.apns */,
+				018DE9E527C8046400A1BD01 /* Preview Content */,
+			);
+			path = "AlfredWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		018DE9E527C8046400A1BD01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				018DE9E627C8046400A1BD01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		018DE9F127C8046400A1BD01 /* AlfredWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				018DE9F227C8046400A1BD01 /* AlfredWatchTests.swift */,
+			);
+			path = AlfredWatchTests;
+			sourceTree = "<group>";
+		};
+		018DE9FB27C8046400A1BD01 /* AlfredWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				018DE9FC27C8046400A1BD01 /* AlfredWatchUITests.swift */,
+				018DE9FE27C8046400A1BD01 /* AlfredWatchUITestsLaunchTests.swift */,
+			);
+			path = AlfredWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018DE99427C6933500A1BD01 /* Alfred (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DE9BE27C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Alfred (iOS)" */;
+			buildPhases = (
+				018DE99127C6933500A1BD01 /* Sources */,
+				018DE99227C6933500A1BD01 /* Frameworks */,
+				018DE99327C6933500A1BD01 /* Resources */,
+				018DEA0327C8046400A1BD01 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018DEA0127C8046400A1BD01 /* PBXTargetDependency */,
+			);
+			name = "Alfred (iOS)";
+			productName = "AlfredMobile (iOS)";
+			productReference = 018DE99527C6933500A1BD01 /* Alfred.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018DE99A27C6933500A1BD01 /* Alfred (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DE9C127C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Alfred (macOS)" */;
+			buildPhases = (
+				018DE99727C6933500A1BD01 /* Sources */,
+				018DE99827C6933500A1BD01 /* Frameworks */,
+				018DE99927C6933500A1BD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alfred (macOS)";
+			productName = "AlfredMobile (macOS)";
+			productReference = 018DE99B27C6933500A1BD01 /* Alfred.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018DE9A127C6933500A1BD01 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DE9C427C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				018DE99E27C6933500A1BD01 /* Sources */,
+				018DE99F27C6933500A1BD01 /* Frameworks */,
+				018DE9A027C6933500A1BD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018DE9A427C6933500A1BD01 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 018DE9A227C6933500A1BD01 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		018DE9AD27C6933500A1BD01 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DE9C727C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				018DE9AA27C6933500A1BD01 /* Sources */,
+				018DE9AB27C6933500A1BD01 /* Frameworks */,
+				018DE9AC27C6933500A1BD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018DE9B027C6933500A1BD01 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 018DE9AE27C6933500A1BD01 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		018DE9CB27C8046000A1BD01 /* AlfredWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DEA0E27C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatch" */;
+			buildPhases = (
+				018DE9CA27C8046000A1BD01 /* Resources */,
+				018DEA0627C8046400A1BD01 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018DE9D727C8046200A1BD01 /* PBXTargetDependency */,
+			);
+			name = AlfredWatch;
+			productName = AlfredWatch;
+			productReference = 018DE9CC27C8046000A1BD01 /* AlfredWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		018DE9D327C8046200A1BD01 /* AlfredWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DEA0D27C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatch WatchKit Extension" */;
+			buildPhases = (
+				018DE9D027C8046200A1BD01 /* Sources */,
+				018DE9D127C8046200A1BD01 /* Frameworks */,
+				018DE9D227C8046200A1BD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AlfredWatch WatchKit Extension";
+			productName = "AlfredWatch WatchKit Extension";
+			productReference = 018DE9D427C8046200A1BD01 /* AlfredWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		018DE9ED27C8046400A1BD01 /* AlfredWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DEA0F27C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatchTests" */;
+			buildPhases = (
+				018DE9EA27C8046400A1BD01 /* Sources */,
+				018DE9EB27C8046400A1BD01 /* Frameworks */,
+				018DE9EC27C8046400A1BD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018DE9F027C8046400A1BD01 /* PBXTargetDependency */,
+			);
+			name = AlfredWatchTests;
+			productName = AlfredWatchTests;
+			productReference = 018DE9EE27C8046400A1BD01 /* AlfredWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		018DE9F727C8046400A1BD01 /* AlfredWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018DEA1027C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatchUITests" */;
+			buildPhases = (
+				018DE9F427C8046400A1BD01 /* Sources */,
+				018DE9F527C8046400A1BD01 /* Frameworks */,
+				018DE9F627C8046400A1BD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018DE9FA27C8046400A1BD01 /* PBXTargetDependency */,
+			);
+			name = AlfredWatchUITests;
+			productName = AlfredWatchUITests;
+			productReference = 018DE9F827C8046400A1BD01 /* AlfredWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018DE98927C6933400A1BD01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					018DE99427C6933500A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					018DE99A27C6933500A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					018DE9A127C6933500A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 018DE99427C6933500A1BD01;
+					};
+					018DE9AD27C6933500A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 018DE99A27C6933500A1BD01;
+					};
+					018DE9CB27C8046000A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					018DE9D327C8046200A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					018DE9ED27C8046400A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 018DE9D327C8046200A1BD01;
+					};
+					018DE9F727C8046400A1BD01 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 018DE9CB27C8046000A1BD01;
+					};
+				};
+			};
+			buildConfigurationList = 018DE98C27C6933400A1BD01 /* Build configuration list for PBXProject "Alfred" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 018DE98827C6933400A1BD01;
+			productRefGroup = 018DE99627C6933500A1BD01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018DE99427C6933500A1BD01 /* Alfred (iOS) */,
+				018DE99A27C6933500A1BD01 /* Alfred (macOS) */,
+				018DE9A127C6933500A1BD01 /* Tests iOS */,
+				018DE9AD27C6933500A1BD01 /* Tests macOS */,
+				018DE9CB27C8046000A1BD01 /* AlfredWatch */,
+				018DE9D327C8046200A1BD01 /* AlfredWatch WatchKit Extension */,
+				018DE9ED27C8046400A1BD01 /* AlfredWatchTests */,
+				018DE9F727C8046400A1BD01 /* AlfredWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		018DE99327C6933500A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9BA27C6933500A1BD01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE99927C6933500A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9BB27C6933500A1BD01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9A027C6933500A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9AC27C6933500A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9CA27C8046000A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9CF27C8046200A1BD01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9D227C8046200A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9E727C8046400A1BD01 /* Preview Assets.xcassets in Resources */,
+				018DE9E427C8046400A1BD01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9EC27C8046400A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9F627C8046400A1BD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018DE99127C6933500A1BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9B827C6933500A1BD01 /* ContentView.swift in Sources */,
+				018DE9B627C6933500A1BD01 /* AlfredMobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE99727C6933500A1BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9B927C6933500A1BD01 /* ContentView.swift in Sources */,
+				018DE9B727C6933500A1BD01 /* AlfredMobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE99E27C6933500A1BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9A927C6933500A1BD01 /* Tests_iOSLaunchTests.swift in Sources */,
+				018DE9A727C6933500A1BD01 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9AA27C6933500A1BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9B527C6933500A1BD01 /* Tests_macOSLaunchTests.swift in Sources */,
+				018DE9B327C6933500A1BD01 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9D027C8046200A1BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9DE27C8046200A1BD01 /* NotificationController.swift in Sources */,
+				018DE9DC27C8046200A1BD01 /* ContentView.swift in Sources */,
+				018DE9E227C8046200A1BD01 /* ComplicationController.swift in Sources */,
+				018DE9DA27C8046200A1BD01 /* AlfredMobileApp.swift in Sources */,
+				018DE9E027C8046200A1BD01 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9EA27C8046400A1BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9F327C8046400A1BD01 /* AlfredWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018DE9F427C8046400A1BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018DE9FF27C8046400A1BD01 /* AlfredWatchUITestsLaunchTests.swift in Sources */,
+				018DE9FD27C8046400A1BD01 /* AlfredWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018DE9A427C6933500A1BD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018DE99427C6933500A1BD01 /* Alfred (iOS) */;
+			targetProxy = 018DE9A327C6933500A1BD01 /* PBXContainerItemProxy */;
+		};
+		018DE9B027C6933500A1BD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018DE99A27C6933500A1BD01 /* Alfred (macOS) */;
+			targetProxy = 018DE9AF27C6933500A1BD01 /* PBXContainerItemProxy */;
+		};
+		018DE9D727C8046200A1BD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018DE9D327C8046200A1BD01 /* AlfredWatch WatchKit Extension */;
+			targetProxy = 018DE9D627C8046200A1BD01 /* PBXContainerItemProxy */;
+		};
+		018DE9F027C8046400A1BD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018DE9D327C8046200A1BD01 /* AlfredWatch WatchKit Extension */;
+			targetProxy = 018DE9EF27C8046400A1BD01 /* PBXContainerItemProxy */;
+		};
+		018DE9FA27C8046400A1BD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018DE9CB27C8046000A1BD01 /* AlfredWatch */;
+			targetProxy = 018DE9F927C8046400A1BD01 /* PBXContainerItemProxy */;
+		};
+		018DEA0127C8046400A1BD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018DE9CB27C8046000A1BD01 /* AlfredWatch */;
+			targetProxy = 018DEA0027C8046400A1BD01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018DE9BC27C6933500A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		018DE9BD27C6933500A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		018DE9BF27C6933500A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alfred--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred;
+				PRODUCT_NAME = Alfred;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		018DE9C027C6933500A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alfred--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred;
+				PRODUCT_NAME = Alfred;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		018DE9C227C6933500A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred;
+				PRODUCT_NAME = Alfred;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		018DE9C327C6933500A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred;
+				PRODUCT_NAME = Alfred;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		018DE9C527C6933500A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodleofdeath.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AlfredMobile (iOS)";
+			};
+			name = Debug;
+		};
+		018DE9C627C6933500A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodleofdeath.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AlfredMobile (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		018DE9C827C6933500A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodleofdeath.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AlfredMobile (macOS)";
+			};
+			name = Debug;
+		};
+		018DE9C927C6933500A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodleofdeath.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AlfredMobile (macOS)";
+			};
+			name = Release;
+		};
+		018DEA0427C8046400A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = AlfredWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = AlfredWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.noodleofdeath.Alfred;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		018DEA0527C8046400A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = AlfredWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = AlfredWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.noodleofdeath.Alfred;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		018DEA0727C8046400A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlfredWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlfredWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AlfredWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = AlfredWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		018DEA0827C8046400A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlfredWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlfredWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AlfredWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = AlfredWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.Alfred.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		018DEA0927C8046400A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.AlfredMobile.AlfredWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlfredWatch WatchKit Extension.appex/AlfredWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		018DEA0A27C8046400A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.AlfredMobile.AlfredWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlfredWatch WatchKit Extension.appex/AlfredWatch WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		018DEA0B27C8046400A1BD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.AlfredMobile.AlfredWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = AlfredWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		018DEA0C27C8046400A1BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2A5EST4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodleofdeath.AlfredMobile.AlfredWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = AlfredWatch;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018DE98C27C6933400A1BD01 /* Build configuration list for PBXProject "Alfred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DE9BC27C6933500A1BD01 /* Debug */,
+				018DE9BD27C6933500A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DE9BE27C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Alfred (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DE9BF27C6933500A1BD01 /* Debug */,
+				018DE9C027C6933500A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DE9C127C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Alfred (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DE9C227C6933500A1BD01 /* Debug */,
+				018DE9C327C6933500A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DE9C427C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DE9C527C6933500A1BD01 /* Debug */,
+				018DE9C627C6933500A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DE9C727C6933500A1BD01 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DE9C827C6933500A1BD01 /* Debug */,
+				018DE9C927C6933500A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DEA0D27C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DEA0727C8046400A1BD01 /* Debug */,
+				018DEA0827C8046400A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DEA0E27C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DEA0427C8046400A1BD01 /* Debug */,
+				018DEA0527C8046400A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DEA0F27C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DEA0927C8046400A1BD01 /* Debug */,
+				018DEA0A27C8046400A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018DEA1027C8046400A1BD01 /* Build configuration list for PBXNativeTarget "AlfredWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018DEA0B27C8046400A1BD01 /* Debug */,
+				018DEA0C27C8046400A1BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 018DE98927C6933400A1BD01 /* Project object */;
+}

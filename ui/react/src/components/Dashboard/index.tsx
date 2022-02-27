@@ -1,5 +1,5 @@
 // @flow
 import Windshield from "./Windshield";
-import Instruments from "./Instruments";
+import Section from "./Section";
 
-export { Windshield, Instruments };
+export { Windshield, Section };

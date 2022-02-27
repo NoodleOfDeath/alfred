@@ -9,8 +9,8 @@ class CreateDriverROSWrapper
 public:
     CreateDriverROSWrapper();
     CreateDriverROSWrapper(ros::NodeHandle node);
-    void drive(double speed);
-    void rotate(double speed);
+    void drive(double velocity);
+    void rotate(double velocity);
 
 private:
     ros::Publisher pub_cmd_vel;

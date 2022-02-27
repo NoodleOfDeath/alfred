@@ -1,7 +1,6 @@
 // @flow
-import React from "react";
+import { Typography } from "@mui/material";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 
 function Windshield(props: any) {
@@ -17,8 +16,10 @@ function Windshield(props: any) {
           textAlign: "center",
         }}
       >
-        This card will evenutally display the video stream of a stereoscopic
-        camera and/or RPLidar module.
+        <Typography>
+          This card will evenutally display the video stream of a stereoscopic
+          camera and/or RPLidar module.
+        </Typography>
       </CardContent>
     </Card>
   );
