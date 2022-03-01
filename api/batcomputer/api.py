@@ -59,8 +59,8 @@ async def get_status(request: Request):
   
 @app.post("/drive/")
 async def drive(request: Request):
-  json = await request.json()
-  velocity = json.get('velocity', 0.0)
+  payload = await request.json()
+  velocity = payload.get('velocity', 0.0)
   msg = CreateCommand()
   msg.command = CreateCommand.CMD_DRIVE
   msg.velocity = velocity
@@ -71,8 +71,8 @@ async def drive(request: Request):
   
 @app.post("/rotate/")
 async def turn(request: Request):
-  json = await request.json()
-  velocity = json.get('velocity', 0.0)
+  payload = await request.json()
+  velocity = payload.get('velocity', 0.0)
   msg = CreateCommand()
   msg.command = CreateCommand.CMD_ROTATE
   msg.velocity = velocity
